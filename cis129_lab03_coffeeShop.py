@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Start with program documentation
 #First we declare the constants in this program,
 #which are the prices of the items themselves and the tax rate
@@ -50,6 +49,3 @@ print(f'6% tax: ${tax:.2f}')
 print('---------')
 print(f"Total: ${total:.2f}")
 print('***************************************')
-=======
-
->>>>>>> 7277bd6f92b5e343a28cdb52f2ab117c4a05fc8a
