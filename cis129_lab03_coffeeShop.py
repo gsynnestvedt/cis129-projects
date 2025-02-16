@@ -1,8 +1,4 @@
 
-#Start with program documentation
-#First we declare the constants in this program,
-#which are the prices of the items themselves and the tax rate
-
 #Start with program documentation.
 #First we declare the constants in this program,
 #which are the prices of the items themselves and the tax rate.
