@@ -1,4 +1,8 @@
 
+#Start with program documentation
+#First we declare the constants in this program,
+#which are the prices of the items themselves and the tax rate
+
 #Start with program documentation.
 #First we declare the constants in this program,
 #which are the prices of the items themselves and the tax rate.
@@ -39,29 +43,26 @@ coffee_word = 'Coffee' if num_coffees == 1 else 'Coffees'
 muffin_word = 'Muffin' if num_muffins == 1 else 'Muffins'
 scone_word = 'Scone' if num_scones == 1 else 'Scones'
 eggsand_word = 'Egg Sandwich' if num_eggsands == 1 else 'Egg Sandwiches'
-subtotal = (total_coffees + total_muffins + total_scones + total_eggsands0
+subtotal = (total_coffees + total_muffins + total_scones + total_eggsands)
 tax = subtotal * tax_rate
 total = subtotal + tax
 
 #Output: Display reciept to customer
 #I use the :.2f to tell the program the decimal places the number
-#should go to
-#The receipt will display the number of coffes, which word, and the
-#total, based on the inital input given by the user
-#I am trying to keep the actual reciept part different from the parts defining things
-#so I moved the asterisk line down here and I will see if it will still work
+#should go to.
+#The receipt will display the number of coffes, which word (pluarl or singular), and the
+#total, based on the inital input given by the user.
 print('***************************************')
 print('My Coffee and Muffin Shop Receipt')
-print(f'{num_coffees} {coffee_word} at $5 each: ${total_coffees:.2f}')
-print(f'{num_muffins} {muffin_word} at $4 each: ${total_muffins:.2f}')
-print(f'{num_scones} {scone_word} at $3 each: ${total_scones:.2f}')
-print(f'{num_eggsands} {eggsand_word} at $6 each: ${total_eggsands:.2f}')
+print(f'{num_coffees} {coffee_word} at $5 each: $ {total_coffees:.2f}')
+print(f'{num_muffins} {muffin_word} at $4 each: $ {total_muffins:.2f}')
+print(f'{num_scones} {scone_word} at $3 each: $ {total_scones:.2f}')
+print(f'{num_eggsands} {eggsand_word} at $6 each: $ {total_eggsands:.2f}')
 if tax < 1.00:
   print(f'6% tax: $ {str(tax)[1:]}')
 else:
-  print(f'6% tax: ${tax:.2f}')
+  print(f'6% tax: $ {tax:.2f}')
 print('---------')
-print(f'Total: ${total:.2f}')
-print('***************************************')
+print(f'Total: $ {total:.2f}')
 print('Thank You, Come Again!')
-
+print('***************************************')
