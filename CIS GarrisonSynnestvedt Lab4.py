@@ -16,7 +16,7 @@ prompt = 'Enter the monthly sales:' # prompt will be a string literal
 
 # This code gets the monthly sales
 
-monthlySales = float(input (prompt))
+monthlySales = float(input(prompt))
 
 # This code determines the store bonus
 
@@ -34,7 +34,7 @@ else:
 
 
 # This code gets the percent of increase in sales
-salesIncrease = float(input ('Enter the sales increase percentage:'))
+salesIncrease = float(input('Enter the sales increase percentage:'))
 salesIncrease = salesIncrease / 100
 
 # This code determines the employee bonus
